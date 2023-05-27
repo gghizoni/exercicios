@@ -23,7 +23,7 @@
 #   bash 4.4.19
 # ------------------------------------------------------------------------ #
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
-FALHAS="$(egrep "FAILED|failure" /var/log/auth.log)"
+FALHAS="$(egrep "FAILED|failure" /var/log/secure)"
 MENSAGEM_USO="
     $(basename $0) - [OPCOES]
 
